@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Mulish:wght@300;400;700&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+
+/* header */
+
+header {
+  padding: 55px;
+  padding-bottom: 0;
+}
+
+nav.menu {
+  display: flex;
+  align-items: center;
+}
+
+nav.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+a.menu_logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  text-indent: 20px;
+}
+
+.menu_link,
+.menu_link-active {
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu_link-active {
+  font-weight: bold;
+}
+
+/* welcome */
+
+.welcome {
+  padding: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome_text {
+  max-width: 450px;
+}
+
+.welcome_header {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.welcome_button {
+  margin-top: 20px;
+
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: #458ff8;
+  color: #fff;
+  border-radius: 55px;
+}
+
+.welcome_image {
+  max-width: 500px;
+}
+
+/* our services */
+
+.our_services {
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../img/wavel.svg") no-repeat;
+  background-position: 0% 45%;
+}
+
+.our_services p {
+  color: #7d7987;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.our_services_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+}
+
+.our_services_top h1 {
+  padding: 20px;
+  margin: 20px;
+  border-bottom: 2px solid #333;
+}
+
+.our_services_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_card {
+  width: 350px;
+  padding: 40px;
+  margin: 35px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  background-color: hwb(0 97% 1%);
+}
+
+.service_card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.service_card img {
+  margin-bottom: 20px;
+}
+
+.more-btn {
+  padding: 20px 50px;
+  border-radius: 55px;
+  color: #458ff6;
+  text-decoration: none;
+  border: 1px solid #458ff6;
+  display: inline-block;
+
+  margin-top: 37px;
+}
+
+.info {
+  padding: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info_image {
+  max-width: 500px;
+}
+
+.info_text {
+  max-width: 450px;
+}
+
+.info_text h1 {
+  padding: 20px;
+  padding-left: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333;
+}
